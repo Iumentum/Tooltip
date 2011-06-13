@@ -7,7 +7,7 @@ Tooltip is a simple jQuery plugin for generating tooltips.
 
 Usage
 -----
-Do not use title as selector cause the script will remove that attribute.
+Do not use title selector as selector cause the script will remove that attribute.
 
     $(function() {
       $('a[rel=tooltip]').tooltip({

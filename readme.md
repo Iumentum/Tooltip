@@ -38,9 +38,10 @@ Tooltip is a simple jQuery plugin for generating tooltips.
 	* __Default:__ `false`
 
 ## Contributing
-__1.__ Fork it.
-__2.__ Create a pull request.
-__3.__ Enjoy a cup of coffee while waiting.
+__1.__ Fork it.  
+__2.__ Make changes.  
+__3.__ Create a pull request.  
+__4.__ Enjoy a cup of coffee while waiting.  
 
 
 ## Forking

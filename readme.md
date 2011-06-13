@@ -3,17 +3,17 @@ Tooltip plugin for jQuery
 
 What is Tooltip
 ---------------
-Tooltip is a simple jquery plugin for generating tooltips.
+Tooltip is a simple jQuery plugin for generating tooltips.
 
 Usage
 -----
-$(function() {
-	$('a[title]').live('focus mouseenter', function() {
-		$(this).tooltip({
-			gravity: ['sw', 'nw', 'se', 'ne', 'n', 's', 'e', 'w']
-		});
-	});
-});
+Do not use title as selector cause the script will remove that attribute.
+
+    $(function() {
+      $('a[rel=tooltip]').tooltip({
+        gravity: ['sw', 'nw', 'se', 'ne', 'n', 's', 'e', 'w']
+      });
+    });
 
 Options
 -------
@@ -29,10 +29,17 @@ titleSelector: string
 	The selector of the title text which will be used by the plugin.
 	Default: title
 
-maually:
-	Set this to true if you wan't to control show/hide manually.
-	Default: false
+live: boolean
+	Define if the trigger event should be bound as a live event.
+	Default: true
 
+trigger: string
+	Define what will trigger the tooltip.
+	Default: 'hover'
+
+className: string
+	Add class to the tooltip element on creation.
+	Default: false
 
 Forking
 -------

@@ -3,6 +3,7 @@
 	line-height: 13px;
 	position: absolute;
 	z-index: 100000;
+	color: #FFF;
 }
 
 .tooltip .tooltip-content {
@@ -17,7 +18,6 @@
 	-o-box-shadow: #333333 1px 1px 5px 0;
 	box-shadow: #333333 1px 1px 5px 0;
 	background: rgba(0, 0, 0, 0.84);
-	color: #FFF;
 	max-width: 220px;
 	min-height: 13px;
 	padding: 5px 10px;
